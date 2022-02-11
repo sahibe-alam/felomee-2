@@ -23,7 +23,12 @@
 
 
 /* css of home landing  */
+.wlcm{
+  font-size: 80px;
+  color: #fdfdfd;
+  line-height: 80px;
 
+}
 
 html, body {
   font-family: "Rubik", Tahoma, Geneva, Verdana, sans-serif; 
