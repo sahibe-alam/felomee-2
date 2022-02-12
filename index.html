@@ -5,9 +5,12 @@
 
 <head>
 
+
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://uploads-ssl.webflow.com/5ebc456382a07e6fa48a4ea7/css/the-spaced-app.webflow.79b14477c.css"
         rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="assets/css/nav.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
     <style>
         .d-btn {
             padding: 15px;
@@ -657,12 +660,12 @@
 
 <body class="body">
     <header class="header-scroll  header">
-        <div class="container">
+        <div class="nav-con">
             <a href="#">
                 <nav class=" navbar">
                     <div class="branding">
                         <img src="assets/img/felomee-1.png" alt="" class="logo">
-
+                       
 
                     </div>
             </a>
@@ -675,43 +678,17 @@
             <div class="menu" id="menu">
                 <ul class="menu-block">
                     <li class="menu-item"><a class="menu-link" href="#">Home</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#">parents</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#services">students</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#Projects">a.i</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#why-us">resources</a></li>
-
+                    <li class="menu-item"><a class="menu-link" href="#">Parents</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#services">A.i</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#Projects">Students</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#why-us">Resorces</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#">Contact</a></li>
                 </ul>
             </div>
             </nav>
         </div>
     </header>
-    <div style="opacity:0" class="modal">
-
-        <div class="modal-content">
-            <h1 class="modal-h">Spread the Word</h1>
-            <p class="modal-p">We&#x27;re all in this together, so thanks for helping us get the word out. The more
-                people that use the app, the better it will work, so remember to send it far and wide!<br /><br />Share
-                this site:</p>
-            <div class="share-contain">
-                <div class="embed-fb w-embed"><a class="w-inline-block social-share-button facebook"
-                        href="https://www.facebook.com/sharer/sharer.php?u=&t=" title="Share on Facebook"
-                        target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL), 'targetWindow', 'toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); 
-return false;"></a></div>
-                <div class="embed-tw w-embed"><a class="w-inline-block social-share-button tw"
-                        href="https://twitter.com/intent/tweet?" target="_blank" title="Tweet"
-                        onclick="window.open('https://twitter.com/intent/tweet?text=Hey%20friends,%20check%20out%20this%20new,%20FREE%20app%20that%20helps%20you%20social%20distance!' + ':%20 ' + encodeURIComponent(document.URL)); return false;"></a>
-                </div>
-                <div class="embed-li w-embed"><a class="w-inline-block social-share-button linkedin"
-                        href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=&source="
-                        target="_blank" title="Share on LinkedIn"
-                        onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' + encodeURIComponent(document.title)); return false;"></a>
-                </div>
-                <div class="social-share-button link"></div>
-            </div><img src="https://uploads-ssl.webflow.com/5ebc456382a07e6fa48a4ea7/5ebc456382a07e0e608a4eee_Close.png"
-                alt="Close" data-w-id="da27824c-5635-7363-4444-a1fff7ec6cd2" class="close-icon" />
-        </div>
-        <div data-w-id="ecf5620b-7d76-0d1a-ed01-ef950f9c87b6" class="close-modal-bg"></div>
-    </div>
+    
     <div data-w-id="57dcfaa3-a566-14d4-8abd-bfc97b5b977e" class="loader">
         <div data-w-id="a80d5985-66a0-24f4-ac58-fadcba943910" class="loader-bar">
             <h1 data-w-id="e2eb8291-82e3-d460-0aa6-3a77ee7f9b2c" class="loader-text">Loading...</h1>
@@ -937,6 +914,7 @@ return false;"></a></div>
     <script src="assets/js/script.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/nav.js"></script>
 </body>
 
 </html>
