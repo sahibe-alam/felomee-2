@@ -11,7 +11,7 @@ ul {
 }
 
 .single-cta i {
-  color: #ff5e14;
+  color: #EEA111;
   font-size: 30px;
   float: left;
   margin-top: 8px;
@@ -81,7 +81,7 @@ ul {
   background: #55ACEE;
 }
 .google-bg{
-  background: #DD4B39;
+  background: #EEA111;
 }
 .footer-widget-heading h3 {
   color: #fff;
@@ -97,7 +97,7 @@ ul {
   bottom: -15px;
   height: 2px;
   width: 50px;
-  background: #ff5e14;
+  background: #EEA111;
 }
 .footer-widget ul li {
   /* display: inline-block;
@@ -106,7 +106,7 @@ ul {
   margin-bottom: 12px; */
 }
 .footer-widget ul li a:hover{
-  color: #ff5e14;
+  color: #EEA111;
 }
 .footer-widget ul li a {
   color: #878787;
@@ -126,9 +126,9 @@ ul {
 .subscribe-form button {
     position: absolute;
     right: 0;
-    background: #ff5e14;
+    background: #EEA111;
     padding: 13px 20px;
-    border: 1px solid #ff5e14;
+    border: 1px solid #EEA111;
     top: 0;
 }
 .subscribe-form button i {
@@ -146,29 +146,29 @@ ul {
   color: #878787;
 }
 .copyright-text p a{
-  color: #ff5e14;
+  color: #EEA111;
 }
 .footer-menu li {
   display: inline-block;
   margin-left: 20px;
 }
 .footer-menu li:hover a{
-  color: #ff5e14;
+  color: #EEA111;
 }
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
 }
 .fa-envelope-open{
-    color: #ff5e14;
+    color: #EEA111;
     font-size: 25px;
 }
 .fa-map-marker-alt{
-    color: #ff5e14 !important;
+    color: #EEA111 !important;
     font-size: 25px !important;
 }
 
 .fa-phone{
-    color: #ff5e14 ;
+    color: #EEA111 ;
     font-size: 10px ;
 }
