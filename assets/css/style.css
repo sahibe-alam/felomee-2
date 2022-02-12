@@ -1,5 +1,30 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+
+}
+body,
+h1, h2, h3, h4, h5, h6, p, a, .main-p
+{
+  font-family: 'Poppins', sans-serif !important;
+      text-decoration: none ;
+}
 /* home page sec  */
+
+.download-icon{
+  margin-left: 20px;
+ 
+  
+
+}
+.div2686{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  
+}
 .div414{
   width: 100%;
   height: auto;
@@ -254,3 +279,40 @@ input[type="radio"]:checked + label {
 .img-nd{
   margin-top: 100px;
 }
+
+ 
+.d-btn {
+    padding: 15px;
+    background-color: blueviolet;
+    font-style: none;
+    color: aliceblue;
+    font-size: 25px;
+    border-radius: 30px;
+    text-decoration: none;
+
+}
+
+.hero-heading {
+    background: var(--purple);
+    background: -webkit-linear-gradient(to right, var(--purple), var(--yellow));
+    background: linear-gradient(to right, var(--purple), var(--yellow));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.scrolling-thumbs-container {
+  background-color: #000000 !important;
+}
+
+.hero {
+
+    background-color: black !important;
+
+}
+
+.section2 {
+    background-color: black !important;
+}
+
+ 
