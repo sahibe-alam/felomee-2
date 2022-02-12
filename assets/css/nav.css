@@ -70,6 +70,9 @@ button {
   height: auto;
   z-index: 999;
   margin: 0 auto;
+  box-shadow: 1px -6px 12px 9px rgba(0,0,0,0.35);
+-webkit-box-shadow: 1px -6px 12px 9px rgba(0,0,0,0.35);
+-moz-box-shadow: 1px -6px 12px 9px rgba(0,0,0,0.35);
 
 }
 .header .navbar {
@@ -147,7 +150,7 @@ button {
  
 }
 .menu-block .menu-item .menu-link{
-    color: #f7f5f5;
+    color: black;
 }
 .header .menu-block {
   width: 100%;

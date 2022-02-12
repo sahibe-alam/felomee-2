@@ -9,6 +9,9 @@
   padding: 0%;
 
 }
+body{
+  background-color: transparent !important;
+}
 body,
 h1, h2, h3, h4, h5, h6, p, a, .main-p
 {
@@ -16,19 +19,58 @@ h1, h2, h3, h4, h5, h6, p, a, .main-p
       text-decoration: none ;
 }
 /* home page sec  */
+.download-icon{
+  padding: 15px;
+}
+.main-p{
+  color: black !important;
+}
 
+.section2  {
+  background-color: white !important;
+  color: black !important;
+}
+.section2 h1, p{
+  color: black !important;
+}
 @media only screen and (max-width: 768px){
+  .h1-dnd{
+   width: auto;
+  }
+  .dnd-div{
+    width: 100vw;
+    height: auto;
+  }
+  .section2{
+    width: 100vw !important;
+  min-height: 1000px !important;
+  }
+  .main-headlines{
+    margin-top: 150px !important;
+    
+  }
+  .text-wrap{
+    margin-top: 100px !important;
+  }
+.hero{
+  padding: 100px 0 100px 0;
+  width: 100vw !important;
+  height: 700px !important;
+}
   .div2686{
     width: 100%;
     height: auto;
   }
   .download-icon{
-    width: 50%;
+    width: 80%;
     height: auto;
+    display: block;
+    padding: 10px;
+ 
   }
 }
 .div2686{
-  display: flex;
+  
   align-items: center;
   justify-items: center;
   
@@ -88,7 +130,7 @@ width: 50%;
   font-size: 70px;
   font-weight: 600;
   line-height: 70px;
-  color: #f1f3f5;
+  color: black;
 }
 
 
@@ -164,10 +206,13 @@ input[type="radio"]:checked + label {
 .dnd-div{
   width: 100%;
   height: 100%;
-  background-color: #000000;
+  background-color: white;
   text-align: center;
   align-items: center;
   color: #f1f3f5;padding: 100px;
+}
+.dnd-div h1, p{
+  color: black;
 }
 #download-sec{
   margin: 0%;
@@ -209,27 +254,10 @@ input[type="radio"]:checked + label {
 
 }
 
-.hero-heading {
-    background: var(--purple);
-    background: -webkit-linear-gradient(to right, var(--purple), var(--yellow));
-    background: linear-gradient(to right, var(--purple), var(--yellow));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
 
-.scrolling-thumbs-container {
-  background-color: #000000 !important;
-}
 
-.hero {
 
-    background-color: black !important;
 
-}
 
-.section2 {
-    background-color: black !important;
-}
 
  
