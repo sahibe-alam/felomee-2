@@ -1,4 +1,52 @@
 
+/* home page sec  */
+.div414{
+  width: 100%;
+  height: auto;
+  background-color: #070707;
+  align-items: center;
+  padding: 100px;
+}
+.img1286{
+  width: 100%;
+  height: auto;
+  margin: 0% auto 0% auto;
+}
+.div22{
+  width: 100%;
+  height: 100%;
+  background-color: #1C0732;
+  display: flex;
+
+}
+.imgg236{
+transform: rotate(270deg);
+-ms-transform: rotate(270deg);
+-moz-transform: rotate(270deg);
+-webkit-transform: rotate(270deg);
+-o-transform: rotate(270deg);
+width: 50%;
+}
+.div24{
+  color: #f1f3f5;
+  padding: 50px;
+
+}
+.p234{
+  margin-bottom: 50px;
+}
+.h42{
+  margin-bottom: 50px;
+}
+.a24{
+  text-decoration: none;
+  padding: 15px;
+  color: #000000;
+  background-color: #EFA620;
+  margin-top: 100px;
+  border-radius: 30px;
+  font-size: 25px;
+}
 
 /* css of ai section */
 /* AI section CSS  */
@@ -9,6 +57,7 @@
   line-height: 70px;
   color: #f1f3f5;
 }
+
 
 .aipic1 {
     animation: motion-blur 8s ease-in-out infinite;
