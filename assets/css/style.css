@@ -20,8 +20,7 @@ h1, h2, h3, h4, h5, h6, p, a, .main-p
 }
 /* home page sec  */
 .download-icon{
-  padding: 15px;
-}
+ }
 .main-p{
   color: black !important;
 }
@@ -81,23 +80,12 @@ h1, h2, h3, h4, h5, h6, p, a, .main-p
   height: 700px !important;
 }
   .div2686{
-    width: 100%;
-    height: auto;
-  }
-  .download-icon{
-    width: 80%;
-    height: auto;
-    display: block;
-    padding: 10px;
- 
-  }
+    display: flex;
+    align-items: center;
+   }
+
 }
-.div2686{
-  
-  align-items: center;
-  justify-items: center;
-  
-}
+
 .div414 {
   width: 100vw;
   height: auto;
@@ -110,7 +98,8 @@ h1, h2, h3, h4, h5, h6, p, a, .main-p
 .ddiv76 {
   margin: auto 0 auto 0;
   color: white;
-}
+  align-items: center;
+ }
 .p645{
   color: white !important;
   text-align: center;
