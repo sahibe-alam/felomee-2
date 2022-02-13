@@ -12,17 +12,9 @@
 /* css of home landing  */
 
 
-html, body {
-  font-family: "Rubik", Tahoma, Geneva, Verdana, sans-serif; 
-  width: 100%;
-  height: 100%;
-  font-size: 100%;
-  box-sizing: inherit;
-  scroll-behavior: smooth;
-  margin: 0;
-  padding: 0;
+.icon64{
+  width: 20px;
 }
-
 /* css of header  */
 a,
 button {
@@ -166,7 +158,10 @@ button {
 .header .menu-item {
   display: block;
   margin: 0;
+  justify-content: center;
+  align-items: center;
 }
+
 @media only screen and (min-width: 768px) {
   .header .menu-item {
     position: relative;
@@ -221,7 +216,7 @@ button {
 
 
 .header-scroll.scrolled {
-  background-color: #eea111;
+  background-color: #ffffffc2;
   transition: background-color 200ms linear;
   color: #f7f5f5;
   
@@ -243,7 +238,7 @@ button {
 
 .logo{
   width: 100px;
-  height: 50px;
+  height: 70px;
   margin-left: 20px;
  }
 
