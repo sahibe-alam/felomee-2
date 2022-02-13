@@ -216,7 +216,7 @@ button {
 
 
 .header-scroll.scrolled {
-  background-color: #ffffffc2;
+  background-color: #ffffffef;
   transition: background-color 200ms linear;
   color: #f7f5f5;
   
