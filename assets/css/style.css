@@ -1,9 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/* @-ms-viewport{
+@-ms-viewport{
   width: device-width;
-} */
+}
 *{
   margin: 0%;
   padding: 0%;
@@ -15,12 +15,21 @@ body{
 body,
 h1, h2, h3, h4, h5, h6, p, a, .main-p
 {
+  text-transform: capitalize;
   font-family: 'Poppins', sans-serif !important;
       text-decoration: none ;
 }
 /* home page sec  */
-.download-icon{
- }
+.div44{
+  margin: 20px;
+  
+}
+.div2686{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}
+ 
 .main-p{
   color: black !important;
 }
@@ -71,18 +80,13 @@ h1, h2, h3, h4, h5, h6, p, a, .main-p
     margin-top: 150px !important;
     
   }
-  .text-wrap{
-    margin-top: 100px !important;
-  }
+ 
 .hero{
   padding: 100px 0 100px 0;
   width: 100vw !important;
   height: 700px !important;
 }
-  .div2686{
-    display: flex;
-    align-items: center;
-   }
+ 
 
 }
 
@@ -156,11 +160,17 @@ width: 50%;
 /* css of ai section */
 /* AI section CSS  */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+.felomee-name{
+  color: #EFA620;
+   
+    
+}
 .wlcm{
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 600;
-  line-height: 70px;
+  line-height: 60px;
   color: black;
+  text-align: right;
 }
 
 
@@ -314,7 +324,7 @@ input[type="radio"]:checked + label {
   color: black !important;
 
 }
-
+ 
 
 
 

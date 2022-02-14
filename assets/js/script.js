@@ -10,4 +10,8 @@ $(document).ready(function() {
         $("#Cars" + test).show();
     });
 });
-// script end of Ai section
+// script for file include
+$(function(){
+    $("#header").load("header.html"); 
+    $("#footer").load("footer.html"); 
+  });
