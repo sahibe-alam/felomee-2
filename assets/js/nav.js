@@ -30,3 +30,10 @@ $(function () {
 	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 	});
   });
+
+  $(function () {
+	$(document).scroll(function () {
+	  var $nav = $(".logo");
+	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+	});
+  });
