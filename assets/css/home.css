@@ -22,13 +22,15 @@ h1, h2, h3, h4, h5, h6, p, a, .main-p
   font-family: 'Poppins', sans-serif !important;
 }
 /* home page sec  */
-.ai-sec{}
+ .img46{
+   width: 45%;
+ }
  .ai-sec{
    width: 100vw;
    height: 100vh;
  
    background-image:
-url("ai.structure.svg");
+url("../img/ai.structure.svg");
    background-position: center;
    background-repeat: no-repeat;
    background-attachment: fixed;
@@ -1248,9 +1250,7 @@ input[type="radio"]:checked + label {
      border-color: #d0d0d0;
      border-radius: 100vw;
    }
-   .lottie21{
-     width: 45%;
-   }
+  
    .scrolling-thumbs-container {
      position: relative;
      z-index: -1;
