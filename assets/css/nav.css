@@ -218,7 +218,8 @@ button {
 .header-scroll.scrolled {
   background-color: #fffffff3;
   transition: background-color 200ms linear;
- 
+ display: none;
+ transition: 2s;
   
 }
 .logo.scrolled{

@@ -30,16 +30,19 @@ background-color: black;
 }
 .fa-solid{
     padding: 10px;
-    color: yellow;
+    color: white;
     
 }
 .ftr-menu li{
     list-style: none;
     color: white;
 }
+.usefull-heading{
+    color: white !important;
+}
  .social-icon{
     align-items: center;
-     background-color: yellow;
+     background-color: white;
      margin: 10px;
      text-align: center;
      padding: 6px;
